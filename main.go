@@ -53,6 +53,7 @@ func main() {
 	// by passing the address
 	// of the variables
 	swap(&first, &second)
+	// swap(first, second)
 
 	fmt.Printf("-> after function call\n")
 	fmt.Printf("f = %d and s = %d\n", first, second)
